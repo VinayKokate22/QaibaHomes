@@ -21,3 +21,28 @@
 .navbar .logotitle {
   margin-left: 3rem;
 }
+@media screen and (max-width: 800px) {
+  .navbar {
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    padding: 3rem 0rem;
+    display: flex;
+    align-items: center;
+  }
+  .navbar .logo {
+    object-fit: cover;
+    width: 3rem;
+    height: 2rem;
+    rotate: 90deg;
+  }
+  .navbar li {
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .navbar .logotitle {
+    margin-left: 1rem;
+  }
+}
