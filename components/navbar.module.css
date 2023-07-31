@@ -1,0 +1,23 @@
+.navbar {
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+  padding: 5rem 0rem;
+  display: flex;
+  align-items: center;
+}
+.navbar .logo {
+  object-fit: cover;
+  width: 4rem;
+  height: 3rem;
+  rotate: 90deg;
+}
+.navbar li {
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.navbar .logotitle {
+  margin-left: 3rem;
+}

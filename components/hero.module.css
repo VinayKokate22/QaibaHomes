@@ -1,0 +1,206 @@
+.heropage {
+  display: flex;
+  gap: 5rem;
+  width: 90%;
+  margin: 3rem auto;
+  align-items: center;
+}
+.heropage .leftsection {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.heropage .leftsection h2 {
+  max-width: 1024px;
+  font-size: 5.5rem;
+  font-family: "Antonio", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  line-height: 6rem;
+}
+.heropage .leftsection h3 {
+  width: 100%;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #76766b;
+}
+.heropage .leftsection button {
+  background-color: #8c52ff;
+  border: none;
+  border-radius: 1rem;
+  color: white;
+  padding: 1.5rem 4rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  width: 70%;
+}
+.heropage .leftsection button:hover {
+  border-radius: 0;
+}
+.heropage .rightsection img {
+  margin-top: -7rem;
+  width: 35rem;
+  height: 35rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50% 50% 0 0;
+  transform: scaleX(-1);
+}
+
+@media screen and (max-width: 1400px) {
+  .heropage {
+    gap: 5rem;
+    width: 90%;
+    margin: 4rem auto;
+    align-items: center;
+  }
+  .heropage .leftsection {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .heropage .leftsection h2 {
+    max-width: 1024px;
+    font-size: 4rem;
+    font-family: "Antonio", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    line-height: 4.5rem;
+  }
+  .heropage .leftsection h3 {
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #76766b;
+  }
+  .heropage .leftsection button {
+    background-color: #8c52ff;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    padding: 1rem 3rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    width: 70%;
+  }
+  .heropage .leftsection button:hover {
+    border-radius: 0;
+  }
+  .heropage .rightsection img {
+    margin-top: -7rem;
+    width: 30rem;
+    height: 30rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 50% 50% 0 0;
+    transform: scaleX(-1);
+  }
+}
+@media screen and (max-width: 1100px) {
+  .heropage {
+    gap: 2rem;
+    width: 90%;
+    margin: 4rem auto;
+    align-items: center;
+  }
+  .heropage .leftsection {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .heropage .leftsection h2 {
+    max-width: 1024px;
+    font-size: 3.5rem;
+    font-family: "Antonio", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    line-height: 4rem;
+  }
+  .heropage .leftsection h3 {
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #76766b;
+  }
+  .heropage .leftsection button {
+    background-color: #8c52ff;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    width: 70%;
+  }
+  .heropage .leftsection button:hover {
+    border-radius: 0;
+  }
+  .heropage .rightsection img {
+    margin-top: -4rem;
+    width: 22rem;
+    height: 22rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 50% 50% 0 0;
+    transform: scaleX(-1);
+  }
+}
+@media screen and (max-width: 800px) {
+  .heropage {
+    gap: 2rem;
+    width: 90%;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .heropage .leftsection {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .heropage .leftsection h2 {
+    max-width: 1024px;
+    font-size: 2.5rem;
+    font-family: "Antonio", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0rem;
+    line-height: 2.5rem;
+  }
+  .heropage .leftsection h3 {
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #76766b;
+  }
+  .heropage .leftsection button {
+    background-color: #8c52ff;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    width: 100%;
+  }
+  .heropage .leftsection button:hover {
+    border-radius: 0;
+  }
+  .heropage .rightsection img {
+    margin-top: -4rem;
+    width: 30rem;
+    height: 25rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 50% 50% 0 0;
+    transform: scaleX(-1);
+  }
+}/*# sourceMappingURL=hero.module.css.map */
