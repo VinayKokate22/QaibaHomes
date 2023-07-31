@@ -78,7 +78,9 @@
     background: linear-gradient(90deg, rgb(238, 229, 255) 0%, rgb(255, 255, 255) 50%, rgb(245, 225, 255) 100%);
   }
   .infopage .infotitle {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    width: 80%;
+    margin: auto;
     text-align: center;
   }
   .infopage .infowrapper {
